@@ -1,0 +1,1827 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+
+
+/* Hero Section */
+
+
+#hero {
+    height: 90vh;
+    margin: 37px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: no-wrap;
+    background-color: black;
+
+}
+
+#hero img {
+    margin: 100px 50px 50px 50px;
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.hero_text {
+    padding: 20px;
+    margin: 50px;
+
+}
+
+.main_text {
+    padding: 20px;
+
+}
+
+.price {
+    font-size: 30px;
+    padding: 10px 10px 10px 0px;
+    color: #E07C24;
+}
+
+.modal {
+    color: black;
+}
+
+.main_text>h2 {
+    font-size: 35px;
+}
+
+.main_text>h6 {
+    margin-top: 20px;
+}
+
+.hero_text button {
+    font-size: 20px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 20px;
+    color: white;
+    background-color: #E07C24;
+    margin: 20px 20px 0px 0px;
+    border: none;
+}
+
+.hero_text h2,
+h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.key_features {
+    padding: 10px 10px 0px 10px;
+}
+
+.key_features ul {
+    padding: 10px;
+}
+
+/* why to enroll in this section program  */
+#why_program_section {
+    margin: 40px;
+    padding: 20px;
+    color: black;
+}
+
+#why_program_section>h2 {
+    margin-left: 100px;
+}
+
+.why_program_content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.why_program_content img {
+    width: 250px;
+    height: 250px;
+    margin: 15px 0px;
+}
+
+.why_program_content_text {
+    width: 60%;
+}
+
+/* Project Section  */
+
+#Projects {
+    height: 100%;
+    margin: 40px;
+    padding: 20px;
+    background-color: #ede8e8;
+}
+
+#Projects>h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+#projects_grp {
+    margin: 10px;
+
+}
+
+.group-1 .card,
+.group-2 .card,
+.group-3 .card,
+.group-4 .card {
+    width: 400px;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 70px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.group-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.group-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.group-3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.group-4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.group-5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carousel {
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel>h3 {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+
+.col-2 {
+    display: flex;
+}
+
+.col-2>img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+
+/* Fees Section */
+.fee_section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.fees-button {
+    margin-right: 100px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.fees-button>button {
+    width: 300px;
+    border-radius: 10px;
+    background-color: #E07C24;
+    color: white;
+    border: none;
+}
+
+
+#course-detail {
+    background-color: black;
+    /* margin: 20px 20px 0px 20px; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 600px;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.syllabus-hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+.syllabus-hero img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(238, 110, 12);
+    border-radius: 50%;
+    margin-left: 150px;
+}
+
+.course-heading-text {
+    margin-right: 300px;
+    margin-top: 30px;
+    color: #E07C24;
+}
+
+.collapse1 .card {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#dropdownMenuButton1 {
+    color: black;
+    background-color: #ede8e8;
+    border: 3px solid #E07C24;
+}
+
+.course-heading-text>h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.curriculum-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* faculty */
+
+#faculty {
+    margin: 30px;
+    padding: 40px 100px;
+    background-color: #ede8e8;
+}
+
+#faculty>h3 {
+    text-align: center;
+}
+
+#faculty>h5 {
+    text-align: center;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 100px;
+}
+
+.row-1 img,
+.row-2 img {
+    align-items: center;
+    border-radius: 100px;
+    border: 5px solid rgb(215, 118, 57);
+}
+
+.row-1 p,
+.row-2 p {
+    margin: 0px;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 100px;
+}
+
+.faculty-div {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgb(55, 50, 48);
+    border: none;
+    border-radius: 20px;
+}
+
+/* Reviews Section  */
+
+#carouselReview {
+    background-color: #262626;
+    color: white;
+}
+
+#review_carousel-1 {
+    padding: 20px;
+}
+
+#review_carousel-2 {
+    padding: 20px;
+}
+
+#carouselReview .img-text {
+    padding: 10px;
+}
+
+.img-area {
+    width: 100px;
+    width: 100px;
+    border: 5px solid rgb(223, 112, 21);
+    border-radius: 50%;
+    margin: 5px auto;
+}
+
+.img-area img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Genereal Questions  */
+/* .questions {
+    height: auto;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.questions>h3 {
+    padding: 20px;
+    color: black;
+}
+
+.ques-1,
+.ques-2,
+.ques-3,
+.ques-4,
+.ques-5,
+.ques-6,
+.ques-7 {
+    margin: 20px;
+    background-color: antiquewhite
+} */
+
+#footer {
+    height: auto;
+    color: white;
+    padding: 30px;
+    font-size: 13px;
+}
+
+.footer_img img {
+    width: 400px;
+    height: 400px;
+}
+
+.footer_divison {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.footer_form {
+    padding: 30px;
+    background-color: black;
+    margin: auto;
+    color: white;
+    width: 50%;
+}
+
+.footer_form>h5 {
+    margin-left: 140px;
+}
+
+.footer_form>h6 {
+    margin-left: 140px;
+}
+
+.footer_form form {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.footer_form input {
+    background-color: black;
+    color: white;
+}
+
+.footer_form textarea {
+    background-color: black;
+    color: white;
+}
+
+.footer_text {
+    color: white;
+    text-align: center;
+    background-color: #E07C24;
+    padding: 20px;
+}
+
+
+/* media query for mobile devices */
+@media (min-width:320px) and (max-width:480px) {
+
+    #hero {
+        background-color: black;
+        flex-direction: column;
+        height: auto;
+        margin: 20px;
+    }
+
+    .hero_text {
+        margin: 0px;
+        width: 100%;
+        height: auto;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .hero_text button {
+        width: 200px;
+        margin: 0px;
+    }
+
+    .main_text {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .main_text>h4 {
+        font-size: 20px;
+        margin: 0px;
+        padding: 10px 10px 10px 0px;
+    }
+
+    .main_text>h2 {
+        font-size: 25px;
+    }
+
+    .main_text_para>p {
+        font-size: 13px;
+        margin: 0px;
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    .hero_img {
+        margin: auto;
+        padding: 5px;
+    }
+
+    #hero img {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+
+    .key_features {
+        padding: 0px;
+    }
+
+    .key_features {
+        padding: 0px;
+        font-size: 15px;
+    }
+
+    .key_features_list {
+        font-size: 13px;
+    }
+
+    #why_program_section {
+        margin: 20px;
+    }
+
+    #why_program_section>h2 {
+        text-align: center;
+        margin: 0px;
+    }
+
+    .why_program_content {
+        flex-direction: column;
+    }
+
+    .why_program_content_text {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .why_program_content img {
+        width: 200px;
+        height: 200px;
+        margin: 15px 0px;
+    }
+
+    #course-detail {
+        height: auto;
+        margin: 20px;
+        padding: 0px;
+    }
+
+    .collapse1 .card {
+        margin: 0px;
+        padding: 0px;
+        font-size: 13px;
+        height: auto;
+    }
+
+    .collapse1 .card ul {
+        margin: 0px;
+        padding: 16px;
+        font-size: 13px;
+        height: auto;
+    }
+
+    .syllabus-hero {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    #dropdownMenuButton1 {
+        width: auto;
+        padding: 5px;
+        text-align: center;
+        margin: 0px 30px;
+    }
+
+    .syllabus-image {
+        margin: auto;
+    }
+
+    .syllabus-image img {
+        width: 100px;
+        height: 100px;
+        margin: 0px;
+    }
+
+    .course-heading-text {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .course-heading-text>h2 {
+        font-size: 25px;
+    }
+
+    .course-heading-text>h4 {
+        font-size: 20px;
+    }
+
+    .curriculum-section {
+        flex-direction: column;
+    }
+
+    #Projects {
+        height: auto;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #projects_grp {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .group-1 .card,
+    .group-2 .card,
+    .group-3 .card,
+    .group-4 .card {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        border-radius: 10px;
+        margin: 0px;
+    }
+
+    .group-1,
+    .group-2,
+    .group-3,
+    .group-4 {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        row-gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        align-items: center;
+    }
+
+    .card img {
+        width: 70px;
+        height: 60px;
+        border-radius: 30px;
+        align-items: center;
+    }
+
+    .card-body {
+        padding: 2px;
+    }
+
+    .card-body>h5 {
+        font-size: 16px;
+    }
+
+    .card-text {
+        font-size: 13px;
+    }
+
+
+    .fee_section {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .fees-button {
+        padding: 10px;
+        text-align: justify;
+        margin: 0px;
+    }
+
+    .fees-button>button {
+        width: 200px;
+    }
+
+    .fees-button>h6 {
+        width: 400px;
+    }
+
+    .fees-text {
+        padding: 10px;
+    }
+
+    .fees-text>h3 {
+        color: #E07C24;
+    }
+
+    #faculty {
+        height: auto;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    #faculty h5 {
+        font-size: 15px;
+    }
+
+    #faculty h3 {
+        font-size: 18px;
+    }
+
+    #carouselReview {
+        margin: 30px;
+    }
+
+    .row-1 {
+        flex-direction: column;
+        row-gap: 10px;
+        padding: 10px;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .row-2 {
+        flex-direction: column;
+        row-gap: 10px;
+        padding: 10px;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .faculty-div {
+        width: 150px;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        box-shadow: 5px 5px 20px rgb(55, 50, 48);
+        border: none;
+        border-radius: 20px;
+    }
+
+    .faculty-div>img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .row .col-2 {
+        width: 200px;
+        height: 100px;
+    }
+
+    .img-text>p {
+        font-size: 13px;
+    }
+
+    .footer_divison {
+        flex-direction: column;
+    }
+
+    .footer_img {
+        margin: auto;
+    }
+
+    .footer_img img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .footer_form {
+        width: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .footer_form form {
+        margin: auto;
+        width: 80%;
+    }
+
+    .footer_form>h5 {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .footer_form>h6 {
+        margin: 0px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width:481px) and (max-width:768px) {
+
+    #hero {
+        background-color: black;
+        height: auto;
+        margin: 20px;
+    }
+
+    .hero_text {
+        margin: 0px;
+        width: 65%;
+        height: auto;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .hero_text button {
+        width: 200px;
+        margin: 0px;
+    }
+
+    .main_text {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .main_text>h4 {
+        font-size: 20px;
+        margin: 0px;
+        padding: 10px 10px 10px 0px;
+    }
+
+    .main_text>h2 {
+        font-size: 25px;
+    }
+
+    .main_text_para>p {
+        font-size: 13px;
+        margin: 0px;
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    .hero_img {
+        margin: auto;
+        padding: 5px;
+    }
+
+    #hero img {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+
+    .key_features {
+        padding: 0px;
+    }
+
+    .key_features {
+        padding: 0px;
+        font-size: 15px;
+    }
+
+    .key_features_list {
+        font-size: 13px;
+    }
+
+    .why_program_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #why_program_section {
+        margin: 20px;
+    }
+
+    #why_program_section>h2 {
+        text-align: center;
+        margin: 0px;
+    }
+
+
+    .why_program_content_text {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .why_program_content img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #course-detail {
+        height: auto;
+        margin: 20px;
+        padding: 0px;
+    }
+
+    .collapse1 .card {
+        margin: 0px;
+        padding: 0px;
+        font-size: 13px;
+        height: auto;
+    }
+
+    .collapse1 .card ul {
+        margin: 0px;
+        padding: 16px;
+        font-size: 13px;
+        height: auto;
+    }
+
+    .syllabus-hero {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    #dropdownMenuButton1 {
+        width: 400px;
+        padding: 5px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .syllabus-image {
+        margin: auto;
+    }
+
+    .syllabus-image img {
+        width: 100px;
+        height: 100px;
+        margin: 0px;
+    }
+
+    .course-heading-text {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .course-heading-text>h2 {
+        font-size: 25px;
+    }
+
+    .course-heading-text>h4 {
+        font-size: 20px;
+    }
+
+    .curriculum-section {
+        flex-direction: column;
+    }
+
+
+    #Projects {
+        height: auto;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #projects_grp {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .group-1 .card,
+    .group-2 .card,
+    .group-3 .card,
+    .group-4 .card {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin: 0px;
+    }
+
+    .group-1,
+    .group-2,
+    .group-3,
+    .group-4 {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        row-gap: 10px;
+        column-gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        align-items: center;
+    }
+
+    .card img {
+        width: 70px;
+        height: 60px;
+        border-radius: 30px;
+        align-items: center;
+    }
+
+    .card-body {
+        padding: 2px;
+    }
+
+    .card-body>h5 {
+        font-size: 16px;
+    }
+
+    .card-text {
+        font-size: 13px;
+    }
+
+
+    .fee_section {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .fees-button {
+        padding: 10px;
+        text-align: justify;
+        margin: 0px;
+    }
+
+    .fees-button>button {
+        width: 200px;
+    }
+
+    .fees-button>h6 {
+        width: auto;
+    }
+
+    .fees-text {
+        padding: 10px;
+    }
+
+    .fees-text>h3 {
+        color: #E07C24;
+    }
+
+    #faculty {
+        height: auto;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    #faculty h5 {
+        font-size: 15px;
+    }
+
+    #faculty h3 {
+        font-size: 18px;
+    }
+
+    .row-1 {
+        row-gap: 10px;
+        padding: 10px;
+        align-items: center;
+        font-size: 13px;
+        column-gap: 10px;
+    }
+
+    .row-2 {
+        row-gap: 10px;
+        padding: 10px;
+        align-items: center;
+        font-size: 13px;
+        column-gap: 10px;
+    }
+
+    .faculty-div {
+        width: 120px;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        box-shadow: 5px 5px 20px rgb(55, 50, 48);
+        border: none;
+        border-radius: 10px;
+        padding: 3px;
+    }
+
+    .faculty-div>img {
+        width: 80px;
+        height: 80px;
+        border-radius: 2px solid #E07C24;
+    }
+
+    .row {
+        align-items: center;
+    }
+
+
+    .row .col-2 {
+        width: 120px;
+        height: 80px;
+    }
+
+    .img-text>p {
+        font-size: 13px;
+    }
+
+
+    .questions {
+        padding: 0px;
+    }
+
+    .ques-4>p {
+        width: fit-content;
+    }
+
+    #footer {
+        padding: 10px;
+    }
+
+    .footer_divison {
+        flex-direction: column;
+    }
+
+    .footer_img {
+        margin: auto;
+    }
+
+    .footer_img img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .footer_form>h5 {
+        margin: 0px;
+    }
+
+    .footer_form>h6 {
+        margin: 0px;
+    }
+
+    .footer_form {
+        padding: 10px;
+    }
+
+    .footer_form form {
+        border-radius: 20px;
+        width: 100%;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    #hero {
+        background-color: black;
+        height: auto;
+        margin: 20px;
+    }
+
+    .hero_text {
+        margin: 0px;
+        width: 65%;
+        height: auto;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .hero_text button {
+        width: 200px;
+        margin: 0px;
+    }
+
+    .main_text {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .main_text>h4 {
+        font-size: 20px;
+        margin: 0px;
+        padding: 10px 10px 10px 0px;
+    }
+
+    .main_text>h2 {
+        font-size: 25px;
+    }
+
+    .main_text_para>p {
+        font-size: 13px;
+        margin: 0px;
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    .hero_img {
+        margin: auto;
+        padding: 5px;
+    }
+
+    #hero img {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+
+    .key_features {
+        padding: 0px;
+    }
+
+    .key_features {
+        padding: 0px;
+        font-size: 15px;
+    }
+
+    .key_features_list {
+        font-size: 13px;
+    }
+
+    .why_program_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #why_program_section {
+        margin: 20px;
+    }
+
+    #why_program_section>h2 {
+        text-align: center;
+        margin: 0px;
+    }
+
+
+    .why_program_content_text {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .why_program_content img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #course-detail {
+        height: auto;
+        margin: 20px;
+        padding: 0px;
+    }
+
+    .collapse1 .card {
+        margin: 0px;
+        padding: 0px;
+        font-size: 13px;
+        height: auto;
+    }
+
+    .collapse1 .card ul {
+        margin: 0px;
+        padding: 16px;
+        font-size: 13px;
+        height: auto;
+    }
+
+    .syllabus-hero {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    #dropdownMenuButton1 {
+        width: 400px;
+        padding: 5px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .syllabus-image {
+        margin: auto;
+    }
+
+    .syllabus-image img {
+        width: 100px;
+        height: 100px;
+        margin: 0px;
+    }
+
+    .course-heading-text {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .course-heading-text>h2 {
+        font-size: 25px;
+    }
+
+    .course-heading-text>h4 {
+        font-size: 20px;
+    }
+
+    .curriculum-section {
+        flex-direction: column;
+    }
+
+
+    #Projects {
+        height: auto;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #projects_grp {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .group-1 .card,
+    .group-2 .card,
+    .group-3 .card,
+    .group-4 .card {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin: 0px;
+    }
+
+    .group-1,
+    .group-2,
+    .group-3,
+    .group-4 {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        row-gap: 10px;
+        column-gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        align-items: center;
+    }
+
+    .card img {
+        width: 70px;
+        height: 60px;
+        border-radius: 30px;
+        align-items: center;
+    }
+
+    .card-body {
+        padding: 2px;
+    }
+
+    .card-body>h5 {
+        font-size: 16px;
+    }
+
+    .card-text {
+        font-size: 13px;
+    }
+
+
+    .fee_section {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .fees-button {
+        padding: 10px;
+        text-align: justify;
+        margin: 0px;
+    }
+
+    .fees-button>button {
+        width: 200px;
+    }
+
+    .fees-button>h6 {
+        width: auto;
+    }
+
+    .fees-text {
+        padding: 10px;
+    }
+
+    .fees-text>h3 {
+        color: #E07C24;
+    }
+
+    #faculty {
+        height: auto;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    #faculty h5 {
+        font-size: 15px;
+    }
+
+    #faculty h3 {
+        font-size: 18px;
+    }
+
+    .row-1 {
+        row-gap: 10px;
+        padding: 10px;
+        align-items: center;
+        font-size: 13px;
+        column-gap: 10px;
+    }
+
+    .row-2 {
+        row-gap: 10px;
+        padding: 10px;
+        align-items: center;
+        font-size: 13px;
+        column-gap: 10px;
+    }
+
+    .faculty-div {
+        width: 120px;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        box-shadow: 5px 5px 20px rgb(55, 50, 48);
+        border: none;
+        border-radius: 10px;
+        padding: 3px;
+    }
+
+    .faculty-div>img {
+        width: 80px;
+        height: 80px;
+        border-radius: 2px solid #E07C24;
+    }
+
+    .row {
+        align-items: center;
+    }
+
+
+    .row .col-2 {
+        width: 120px;
+        height: 100px;
+    }
+
+    .img-text>p {
+        font-size: 13px;
+    }
+
+
+    .questions {
+        padding: 0px;
+    }
+
+    .ques-4>p {
+        width: fit-content;
+    }
+
+    #footer {
+        padding: 10px;
+    }
+
+    .footer_divison {
+        flex-direction: column;
+    }
+
+    .footer_img {
+        margin: auto;
+    }
+
+    .footer_img img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .footer_form>h5 {
+        margin: 0px;
+    }
+
+    .footer_form>h6 {
+        margin: 0px;
+    }
+
+    .footer_form {
+        padding: 10px;
+    }
+
+    .footer_form form {
+        border-radius: 20px;
+        width: 100%;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+
+    #hero {
+        background-color: #262626;
+        height: auto;
+        margin: 20px;
+    }
+
+    .hero_text {
+        margin: 0px;
+        width: 65%;
+        height: auto;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .hero_text button {
+        width: 200px;
+        margin: 0px;
+    }
+
+    .main_text {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .main_text>h4 {
+        font-size: 20px;
+        margin: 0px;
+        padding: 10px 10px 10px 0px;
+    }
+
+    .main_text>h2 {
+        font-size: 25px;
+    }
+
+    .main_text_para>p {
+        font-size: 13px;
+        margin: 0px;
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    .hero_img {
+        margin: auto;
+        padding: 5px;
+    }
+
+    #hero img {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+
+    .key_features {
+        padding: 0px;
+    }
+
+    .key_features {
+        padding: 0px;
+        font-size: 15px;
+    }
+
+    .key_features_list {
+        font-size: 13px;
+    }
+
+    .why_program_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #why_program_section {
+        margin: 20px;
+    }
+
+    #why_program_section>h2 {
+        text-align: center;
+        margin: 0px;
+    }
+
+
+    .why_program_content_text {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .why_program_content img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #course-detail {
+        height: auto;
+        margin: 20px;
+        padding: 0px;
+    }
+
+    .collapse1 .card {
+        margin: 0px;
+        padding: 0px;
+        font-size: 13px;
+        height: auto;
+    }
+
+    .collapse1 .card ul {
+        margin: 0px;
+        padding: 16px;
+        font-size: 13px;
+        height: auto;
+    }
+
+    .syllabus-hero {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    #dropdownMenuButton1 {
+        width: 400px;
+        padding: 5px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .syllabus-image {
+        margin: auto;
+    }
+
+    .syllabus-image img {
+        width: 100px;
+        height: 100px;
+        margin: 0px;
+    }
+
+    .course-heading-text {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .course-heading-text>h2 {
+        font-size: 25px;
+    }
+
+    .course-heading-text>h4 {
+        font-size: 20px;
+    }
+
+    .curriculum-section {
+        flex-direction: column;
+    }
+
+
+    #Projects {
+        height: auto;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #projects_grp {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .group-1 .card,
+    .group-2 .card,
+    .group-3 .card,
+    .group-4 .card {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin: 0px;
+    }
+
+    .group-1,
+    .group-2,
+    .group-3,
+    .group-4 {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        row-gap: 10px;
+        column-gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        align-items: center;
+    }
+
+    .card img {
+        width: 70px;
+        height: 60px;
+        border-radius: 30px;
+        align-items: center;
+    }
+
+    .card-body {
+        padding: 2px;
+    }
+
+    .card-body>h5 {
+        font-size: 16px;
+    }
+
+    .card-text {
+        font-size: 13px;
+    }
+
+
+    .fee_section {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .fees-button {
+        padding: 10px;
+        text-align: justify;
+        margin: 0px;
+    }
+
+    .fees-button>button {
+        width: 200px;
+    }
+
+    .fees-button>h6 {
+        width: auto;
+    }
+
+    .fees-text {
+        padding: 10px;
+    }
+
+    .fees-text>h3 {
+        color: #E07C24;
+    }
+
+    #faculty {
+        height: auto;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    #faculty h5 {
+        font-size: 15px;
+    }
+
+    #faculty h3 {
+        font-size: 18px;
+    }
+
+    .row-1 {
+        row-gap: 10px;
+        padding: 10px;
+        align-items: center;
+        font-size: 13px;
+        column-gap: 10px;
+    }
+
+    .row-2 {
+        row-gap: 10px;
+        padding: 10px;
+        align-items: center;
+        font-size: 13px;
+        column-gap: 10px;
+    }
+
+    .faculty-div {
+        width: 120px;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        box-shadow: 5px 5px 20px rgb(55, 50, 48);
+        border: none;
+        border-radius: 10px;
+        padding: 3px;
+    }
+
+    .faculty-div>img {
+        width: 80px;
+        height: 80px;
+        border-radius: 2px solid #E07C24;
+    }
+
+    .row {
+        align-items: center;
+    }
+
+
+    .row .col-2 {
+        width: 150px;
+        height: 100px;
+    }
+
+    .img-text>p {
+        font-size: 13px;
+    }
+
+
+    .questions {
+        padding: 0px;
+    }
+
+    .ques-4>p {
+        width: fit-content;
+    }
+
+    #footer {
+        padding: 10px;
+    }
+
+    .footer_divison {
+        flex-direction: column;
+    }
+
+    .footer_img {
+        margin: auto;
+    }
+
+    .footer_img img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .footer_form>h5 {
+        margin: 0px;
+    }
+
+    .footer_form>h6 {
+        margin: 0px;
+    }
+
+    .footer_form {
+        padding: 10px;
+    }
+
+    .footer_form form {
+        border-radius: 20px;
+        width: 100%;
+    }
+}
