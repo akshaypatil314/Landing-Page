@@ -90,9 +90,9 @@ h4 {
 .key_features ul {
     padding: 10px;
 }
-.modal-footer button {
-        margin: 10px;
-    }
+
+
+
 
 /* why to enroll in this section program  */
 #why_program_section {
@@ -374,30 +374,8 @@ h4 {
     border-radius: 50%;
 }
 
-/* Genereal Questions  */
-/* .questions {
-    height: auto;
-    margin: 40px;
-    padding: 20px;
-    text-align: center;
-    background-color: antiquewhite;
-}
 
-.questions>h3 {
-    padding: 20px;
-    color: black;
-}
 
-.ques-1,
-.ques-2,
-.ques-3,
-.ques-4,
-.ques-5,
-.ques-6,
-.ques-7 {
-    margin: 20px;
-    background-color: antiquewhite
-} */
 
 #footer {
     height: auto;
