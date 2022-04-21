@@ -303,9 +303,12 @@ h4 {
 
 #faculty>h3 {
     text-align: center;
+    color:black;
+    font-size:20px;
 }
 
 #faculty>h5 {
+    font-size:13px;
     text-align: center;
 }
 
