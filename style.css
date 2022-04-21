@@ -525,7 +525,9 @@ h4 {
     .key_features_list {
         font-size: 13px;
     }
-
+    .modal-footer button {
+        margin: 10px;
+    }
     #why_program_section {
         margin: 20px;
     }
