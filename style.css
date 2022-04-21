@@ -90,6 +90,9 @@ h4 {
 .key_features ul {
     padding: 10px;
 }
+.modal-footer button {
+        margin: 10px;
+    }
 
 /* why to enroll in this section program  */
 #why_program_section {
